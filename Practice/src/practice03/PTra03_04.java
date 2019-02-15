@@ -33,6 +33,16 @@ public class PTra03_04 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if (num % 4 == 0)
+		{
+			if (num % 100 == 0)
+				System.out.println("うるう年ではありません");
+			else if (num%400 == 0)
+				System.out.println("うるう年です");
+			else 
+				System.out.println("うるう年です");
+			
+		}
 
 	}
 }

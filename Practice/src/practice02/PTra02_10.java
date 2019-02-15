@@ -20,7 +20,11 @@ public class PTra02_10 {
 		 * ※ 消費税は、全商品の合計に8%が加算されます
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
+		 *
 		 */
+		double a =(int)(coffee *2 + snack)+(coffee *2 + snack)*0.08;
+		int sum = (int)a;
+		System.out.println(moneyInHand - sum);
 
 	}
 }

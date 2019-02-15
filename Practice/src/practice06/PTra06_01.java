@@ -10,9 +10,19 @@ public class PTra06_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数iが10未満である限り繰り返しを行う条件式を記述してください
-		for (int i = 0; ; i++) {
+		for (int i = 0;i <= 10 ; i++) {
 
 			// ★ 変数iを2乗した値を出力してください
+			if (i%2==0) {
+				if (i%6==0)
+					;
+
+				else if (i%10==0)
+					;
+
+				else
+					System.out.println(i);
+			}
 
 
 		}

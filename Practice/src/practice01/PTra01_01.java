@@ -7,11 +7,10 @@ package practice01;
  */
 
 public class PTra01_01 {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
         // ★このJavaプログラムを変更して、「Welcome!Java」と出力（コマンドプロンプトに表示）してください
         System.out.println("Welcome!Java");
-
 
     }
 }

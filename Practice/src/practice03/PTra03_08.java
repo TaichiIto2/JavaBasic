@@ -34,7 +34,22 @@ public class PTra03_08 {
 		 * ●最後に所持金を表示してプログラム終了
 		 *
 		 * ※ プログラムは何行書いても良いです
-		 */
+		 */3
+		switch (num) {
+
+		case 1:
+			System.out.println(money-150+"円");
+			break;
+		case 2:
+			System.out.println(money-160+"円");
+			break;
+		case 3:
+			System.out.println(money-200+"円");
+			break;
+		default:
+			System.out.println(money+"円");
+			break;
+		}
 
 	}
 }
