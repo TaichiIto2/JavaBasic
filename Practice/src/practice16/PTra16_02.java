@@ -19,5 +19,13 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
+		java.lang.Boolean a = true;
+		java.lang.Byte a1 = 100;
+		java.lang.Short a2 = 300;
+		java.lang.Integer a3 = 1000;
+		java.lang.Float a4 = 2000F;
+		java.lang.Double a5 = 3.1415;
+		java.lang.Character a6 = '月';
+
 	}
 }
