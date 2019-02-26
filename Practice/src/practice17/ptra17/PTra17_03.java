@@ -45,7 +45,7 @@ public class PTra17_03 {
 					System.out.println("回答を数字で入力してください");
 					String input = ThrowExceptionUtil.inputValue();
 
-					int num = Integer.parseInt(input);
+					int num =Integer.parseInt (input);
 
 					if (answer[i] == num) {
 						score++;
